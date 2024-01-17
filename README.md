@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# PokedexReacts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto de pokedex, para aprendizado de react e typescript, com mecanicas basicas
 
-## Available Scripts
+## Tabela de conteudos
 
-In the project directory, you can run:
+    1. Instalação
+    2. Estrutura do Projeto
+    3. Como me localizar no projeto?
+    4. Executando o Projeto
+    5. Tecnologias Utilizadas
+    6. Licença
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone o repositório:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/seu-usuario/seu-projeto.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navegue até o diretório do projeto:
 
-### `npm run build`
+   ```bash
+   cd seu-projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instale as dependências:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Estrutura do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `./src/index`: Arquivo inicial do projeto
+- `./src/App`: Arquivo que chama as rotas.
+- `./src/routes/index`: Arquivo que é definida as rotas.
+- `./src/pages/index`: Arquivo que é exportadas todas as pages
+- `./src/pages/login/index`: É a página de login.
+- `./src/pages/home/index`: É a página home.
+- `./src/components/Navbar/index`: Arquivo onde fica o componente de navbar
+- `./src/components/PokemonCard/index`: Arquivo onde fica o componente de card
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Como me localizar no projeto?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Executando o Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicie o projeto localmente:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+      npm start
+
+
+## Tecnologias utilizadas
+
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+    . React
+    . TypeScript
+
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
