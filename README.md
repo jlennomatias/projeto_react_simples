@@ -1,6 +1,6 @@
-# PokedexReacts
+# ProjetoReacts
 
-Projeto de pokedex, para aprendizado de react e typescript, com mecanicas basicas
+Projeto simples, para aprendizado de react e typescript, com mecanicas basicas
 
 ## Tabela de conteudos
 
